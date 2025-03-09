@@ -1739,3 +1739,10 @@ Loading component Vehicles.dll
 	Successfully loaded component Vehicles (1.4.0.2783) with UID 3f1f62ee9e22ab19
 Loaded 20 component(s) from C:\Users\lucas\gpbfreeroam-stable\components
 [08-03-2025T21:58:05-0300] [Info] Legacy Network started on port 7777
+[08-03-2025T21:58:16-0300] [Warning] Couldn't announce legacy network to open.mp list.
+[08-03-2025T21:58:16-0300] [Warning] 	 Status: 406
+[08-03-2025T21:58:16-0300] [Warning] 	 Message: {"error":"failed to query server: socket read timed out"}
+[08-03-2025T21:58:16-0300] [Warning] This won't affect the server's behaviour.
+[08-03-2025T21:58:19-0300] [Info] [connection] incoming connection: 26.25.155.145:49325 id: 0
+[08-03-2025T21:58:19-0300] [Info] [join] [GPB]Lucas has joined the server (0:26.25.155.145)
+[08-03-2025T21:58:26-0300] [Info] [part] [GPB]Lucas has left the server (0:1)

@@ -104,7 +104,7 @@ public OnPlayerEnterVehicle(playerid, vehicleid, ispassenger)
     return true;
 }
 
-forward MensagemJogadorConecta(playerid);
+forward MensagemJogadorConecta(playerid); // Função de mostrar quem conectou-se.
 public MensagemJogadorConecta(playerid)
 {
     new nome [MAX_PLAYER_NAME + 1];
@@ -114,7 +114,7 @@ public MensagemJogadorConecta(playerid)
     return 1;
 }
 
-forward MensagemJogadorDesconecta(playerid);
+forward MensagemJogadorDesconecta(playerid); // Função de mostrar quem saiu.
 public MensagemJogadorDesconecta(playerid)
 {
     new nome [MAX_PLAYER_NAME + 1];
