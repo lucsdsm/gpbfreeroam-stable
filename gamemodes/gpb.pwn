@@ -30,7 +30,8 @@ main() {}
 
 enum veiculoEnum {
     bool:motor,
-    bool:luzes
+    bool:luzes,
+    bool:placa
 }
 
 // Variáveis globais:
@@ -93,29 +94,6 @@ stock CriaVeiculo(playerid, const idVeiculo, Float:x, Float:y, Float:z, Float:an
     new vehicleid = CreateVehicle(idVeiculo, x, y, z, ang, -1, -1, -1, sirene);
     PutPlayerInVehicle(playerid, vehicleid, 0);
     return vehicleid;
-}
-
-stock LigaDesligaMotor (playerid, vehicleid) // Liga ou desliga o motor do veículo.
-{
-	new enginem, lights, alarm, doors, bonnet, boot, objective;
-	GetVehicleParamsEx(GetPlayerVehicleID(playerid),enginem, lights, alarm, doors, bonnet, boot, objective);
-    
-    if (veiculoInfo[vehicleid][motor]) {
-        veiculoInfo[vehicleid][motor] = false;
-        SetVehicleParamsEx(GetPlayerVehicleID(playerid), VEHICLE_PARAMS_OFF, lights, alarm, doors, bonnet, boot, objective);
-        SendClientMessage(playerid, cinza, "Motor desligado.");
-        format(gpbMensagem, 500, "%s gira a chave e desliga o motor do seu veículo.", RetornaNomeJogador(playerid));
-		EnviaMensagemComAlcance(playerid, roxo, gpbMensagem, 10);
-        return 1;
-    }
-    else {
-        veiculoInfo[vehicleid][motor] = true;
-        SetVehicleParamsEx(GetPlayerVehicleID(playerid), VEHICLE_PARAMS_ON, lights, alarm, doors, bonnet, boot, objective);
-        SendClientMessage(playerid, cinza, "Motor ligado.");
-        format(gpbMensagem, 500, "%s gira a chave e liga o motor do seu veículo.", RetornaNomeJogador(playerid));
-		EnviaMensagemComAlcance(playerid, roxo, gpbMensagem, 10);
-        return 1;
-    }
 }
 
 // Calbacks nativos:
@@ -183,8 +161,7 @@ public OnPlayerStateChange(playerid, PLAYER_STATE:newstate, PLAYER_STATE:oldstat
 public OnPlayerKeyStateChange(playerid, KEY:newkeys, KEY:oldkeys) {
     if (IsPlayerInAnyVehicle(playerid)) {
         if (newkeys == KEY_FIRE) {
-            SetTimerEx("LigaDesligaMotor", 1000, false, "d", playerid, GetPlayerVehicleID(playerid));
-            LigaDesligaMotor(playerid, GetPlayerVehicleID(playerid));
+            SetTimerEx("LigaDesligaMotor", 1000, false, "dd", playerid, GetPlayerVehicleID(playerid));
         }
     }
     return true;
@@ -230,6 +207,28 @@ public MensagemJogadorDesconecta(playerid)
     SendClientMessage(playerid, cinza, gpbMensagem);
     return 1;
 }
+
+forward LigaDesligaMotor(playerid, vehicleid);
+public LigaDesligaMotor(playerid, vehicleid)
+{
+    new enginem, lights, alarm, doors, bonnet, boot, objective;
+    GetVehicleParamsEx(vehicleid, enginem, lights, alarm, doors, bonnet, boot, objective);
+    
+    if (veiculoInfo[vehicleid][motor]) {
+        veiculoInfo[vehicleid][motor] = false;
+        SetVehicleParamsEx(vehicleid, VEHICLE_PARAMS_OFF, lights, alarm, doors, bonnet, boot, objective);
+        format(gpbMensagem, 500, "%s gira as chaves do seu veículo e liga-o.", RetornaNomeJogador(playerid));
+        EnviaMensagemComAlcance(playerid, roxo, gpbMensagem, 10);
+    }
+    else {
+        veiculoInfo[vehicleid][motor] = true;
+        SetVehicleParamsEx(vehicleid, VEHICLE_PARAMS_ON, lights, alarm, doors, bonnet, boot, objective);
+        format(gpbMensagem, 500, "%s gira as chaves do seu veículo e desliga-o.", RetornaNomeJogador(playerid));
+        EnviaMensagemComAlcance(playerid, roxo, gpbMensagem, 10);
+    }
+    return 1;
+}
+
 
 // Comandos ZCMD:
 CMD:vc(playerid, params[])
