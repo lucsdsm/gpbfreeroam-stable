@@ -1,0 +1,1741 @@
+Starting open.mp server (1.4.0.2783) from commit 601de2e1c8da86ff7979821a82bce20568d547dc
+Loading component Actors.dll
+	Successfully loaded component Actors (1.4.0.2783) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.4.0.2783) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.4.0.2783) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.4.0.2783) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.4.0.2783) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.4.0.2783) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.4.0.2783) with UID 44a111350d611dde
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.4.0.2783) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.4.0.2783) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.4.0.2783) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.4.0.2783) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.4.0.2783) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.4.0.2783) with UID 78906cd9f19c36a6
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.4.0.2783) with UID cf304faa363dd971
+Loading component Recordings.dll
+	Successfully loaded component Recordings (1.4.0.2783) with UID 871144d399f5f613
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.4.0.2783) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.4.0.2783) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.4.0.2783) with UID 2ad8124c5ea257a3
+Loading component Variables.dll
+	Successfully loaded component Variables (1.4.0.2783) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.4.0.2783) with UID 3f1f62ee9e22ab19
+Loaded 20 component(s) from C:\Users\lucas\gpbfreeroam-stable\components
+[08-03-2025T20:12:56-0300] [Info] 
+----------------------------------
+[08-03-2025T20:12:56-0300] [Info]  gungame is a gun game mode released as
+[08-03-2025T20:12:56-0300] [Info]  an example mode for open.mp
+[08-03-2025T20:12:56-0300] [Info]  
+[08-03-2025T20:12:56-0300] [Info]  Author: NotUnlikeTheWaves (github)
+[08-03-2025T20:12:56-0300] [Info] ----------------------------------
+
+[08-03-2025T20:12:56-0300] [Info] Legacy Network started on port 7777
+[08-03-2025T20:13:07-0300] [Warning] Couldn't announce legacy network to open.mp list.
+[08-03-2025T20:13:07-0300] [Warning] 	 Status: 406
+[08-03-2025T20:13:07-0300] [Warning] 	 Message: {"error":"failed to query server: socket read timed out"}
+[08-03-2025T20:13:07-0300] [Warning] This won't affect the server's behaviour.
+[08-03-2025T20:13:56-0300] [Info] [connection] incoming connection: 26.25.155.145:64672 id: 0
+[08-03-2025T20:13:56-0300] [Info] [join] [GPB]Lucas has joined the server (0:26.25.155.145)
+[08-03-2025T20:14:20-0300] [Info] [chat] [[GPB]Lucas]: oii
+[08-03-2025T20:14:44-0300] [Info] [part] [GPB]Lucas has left the server (0:0)
+Starting open.mp server (1.4.0.2783) from commit 601de2e1c8da86ff7979821a82bce20568d547dc
+Loading component Actors.dll
+	Successfully loaded component Actors (1.4.0.2783) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.4.0.2783) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.4.0.2783) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.4.0.2783) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.4.0.2783) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.4.0.2783) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.4.0.2783) with UID 44a111350d611dde
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.4.0.2783) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.4.0.2783) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.4.0.2783) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.4.0.2783) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.4.0.2783) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.4.0.2783) with UID 78906cd9f19c36a6
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.4.0.2783) with UID cf304faa363dd971
+Loading component Recordings.dll
+	Successfully loaded component Recordings (1.4.0.2783) with UID 871144d399f5f613
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.4.0.2783) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.4.0.2783) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.4.0.2783) with UID 2ad8124c5ea257a3
+Loading component Variables.dll
+	Successfully loaded component Variables (1.4.0.2783) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.4.0.2783) with UID 3f1f62ee9e22ab19
+Loaded 20 component(s) from C:\Users\lucas\gpbfreeroam-stable\components
+[08-03-2025T20:28:11-0300] [Info] 
+----------------------------------
+[08-03-2025T20:28:11-0300] [Info]  gungame is a gun game mode released as
+[08-03-2025T20:28:11-0300] [Info]  an example mode for open.mp
+[08-03-2025T20:28:11-0300] [Info]  
+[08-03-2025T20:28:11-0300] [Info]  Author: NotUnlikeTheWaves (github)
+[08-03-2025T20:28:11-0300] [Info] ----------------------------------
+
+[08-03-2025T20:28:11-0300] [Info] Legacy Network started on port 7777
+[08-03-2025T20:28:21-0300] [Warning] Couldn't announce legacy network to open.mp list.
+[08-03-2025T20:28:21-0300] [Warning] 	 Status: 406
+[08-03-2025T20:28:21-0300] [Warning] 	 Message: {"error":"failed to query server: socket read timed out"}
+[08-03-2025T20:28:21-0300] [Warning] This won't affect the server's behaviour.
+[08-03-2025T20:28:44-0300] [Info] [connection] incoming connection: 26.25.155.145:51499 id: 0
+[08-03-2025T20:28:44-0300] [Info] [join] [GPB]Lucas has joined the server (0:26.25.155.145)
+Starting open.mp server (1.4.0.2783) from commit 601de2e1c8da86ff7979821a82bce20568d547dc
+Loading component Actors.dll
+	Successfully loaded component Actors (1.4.0.2783) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.4.0.2783) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.4.0.2783) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.4.0.2783) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.4.0.2783) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.4.0.2783) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.4.0.2783) with UID 44a111350d611dde
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.4.0.2783) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.4.0.2783) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.4.0.2783) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.4.0.2783) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.4.0.2783) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.4.0.2783) with UID 78906cd9f19c36a6
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.4.0.2783) with UID cf304faa363dd971
+Loading component Recordings.dll
+	Successfully loaded component Recordings (1.4.0.2783) with UID 871144d399f5f613
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.4.0.2783) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.4.0.2783) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.4.0.2783) with UID 2ad8124c5ea257a3
+Loading component Variables.dll
+	Successfully loaded component Variables (1.4.0.2783) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.4.0.2783) with UID 3f1f62ee9e22ab19
+Loaded 20 component(s) from C:\Users\lucas\gpbfreeroam-stable\components
+[08-03-2025T20:34:51-0300] [Info] 
+----------------------------------
+[08-03-2025T20:34:51-0300] [Info]  gungame is a gun game mode released as
+[08-03-2025T20:34:51-0300] [Info]  an example mode for open.mp
+[08-03-2025T20:34:51-0300] [Info]  
+[08-03-2025T20:34:51-0300] [Info]  Author: NotUnlikeTheWaves (github)
+[08-03-2025T20:34:51-0300] [Info] ----------------------------------
+
+[08-03-2025T20:34:51-0300] [Info] Legacy Network started on port 7777
+Starting open.mp server (1.4.0.2783) from commit 601de2e1c8da86ff7979821a82bce20568d547dc
+Loading component Actors.dll
+	Successfully loaded component Actors (1.4.0.2783) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.4.0.2783) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.4.0.2783) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.4.0.2783) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.4.0.2783) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.4.0.2783) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.4.0.2783) with UID 44a111350d611dde
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.4.0.2783) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.4.0.2783) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.4.0.2783) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.4.0.2783) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.4.0.2783) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.4.0.2783) with UID 78906cd9f19c36a6
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.4.0.2783) with UID cf304faa363dd971
+Loading component Recordings.dll
+	Successfully loaded component Recordings (1.4.0.2783) with UID 871144d399f5f613
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.4.0.2783) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.4.0.2783) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.4.0.2783) with UID 2ad8124c5ea257a3
+Loading component Variables.dll
+	Successfully loaded component Variables (1.4.0.2783) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.4.0.2783) with UID 3f1f62ee9e22ab19
+Loaded 20 component(s) from C:\Users\lucas\gpbfreeroam-stable\components
+[08-03-2025T20:40:38-0300] [Info] Could not find:
+
+	 gamemodes\gungame.amx 
+While attempting to load a PAWN script, a file-not-found error was
+encountered.  This could be caused by many things:
+
+ * The wrong filename was given.
+ * The wrong gamemodes path was given.
+ * The server was launched from a different directory, making relative paths
+   relative to the wrong place (and thus wrong).
+ * You didn't copy the file to the correct directory or server.
+ * The compilation failed, leading to no output file.
+ * `-l` or `-a` were used to compile, which output intermediate steps for
+   inspecting, rather than a full script.
+ * Anything else, really just check the file is at the path given.
+
+[08-03-2025T20:40:38-0300] [Info] Legacy Network started on port 7777
+[08-03-2025T20:40:49-0300] [Warning] Couldn't announce legacy network to open.mp list.
+[08-03-2025T20:40:49-0300] [Warning] 	 Status: 406
+[08-03-2025T20:40:49-0300] [Warning] 	 Message: {"error":"failed to query server: socket read timed out"}
+[08-03-2025T20:40:49-0300] [Warning] This won't affect the server's behaviour.
+[08-03-2025T20:41:02-0300] [Info] [connection] incoming connection: 26.25.155.145:52402 id: 0
+[08-03-2025T20:41:02-0300] [Info] [join] [GPB]Lucas has joined the server (0:26.25.155.145)
+[08-03-2025T20:41:34-0300] [Info] [part] [GPB]Lucas has left the server (0:0)
+Starting open.mp server (1.4.0.2783) from commit 601de2e1c8da86ff7979821a82bce20568d547dc
+Loading component Actors.dll
+	Successfully loaded component Actors (1.4.0.2783) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.4.0.2783) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.4.0.2783) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.4.0.2783) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.4.0.2783) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.4.0.2783) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.4.0.2783) with UID 44a111350d611dde
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.4.0.2783) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.4.0.2783) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.4.0.2783) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.4.0.2783) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.4.0.2783) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.4.0.2783) with UID 78906cd9f19c36a6
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.4.0.2783) with UID cf304faa363dd971
+Loading component Recordings.dll
+	Successfully loaded component Recordings (1.4.0.2783) with UID 871144d399f5f613
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.4.0.2783) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.4.0.2783) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.4.0.2783) with UID 2ad8124c5ea257a3
+Loading component Variables.dll
+	Successfully loaded component Variables (1.4.0.2783) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.4.0.2783) with UID 3f1f62ee9e22ab19
+Loaded 20 component(s) from C:\Users\lucas\gpbfreeroam-stable\components
+[08-03-2025T20:45:07-0300] [Info] Could not find:
+
+	 gamemodes\gungame.amx 
+While attempting to load a PAWN script, a file-not-found error was
+encountered.  This could be caused by many things:
+
+ * The wrong filename was given.
+ * The wrong gamemodes path was given.
+ * The server was launched from a different directory, making relative paths
+   relative to the wrong place (and thus wrong).
+ * You didn't copy the file to the correct directory or server.
+ * The compilation failed, leading to no output file.
+ * `-l` or `-a` were used to compile, which output intermediate steps for
+   inspecting, rather than a full script.
+ * Anything else, really just check the file is at the path given.
+
+[08-03-2025T20:45:07-0300] [Info] Legacy Network started on port 7777
+[08-03-2025T20:45:18-0300] [Warning] Couldn't announce legacy network to open.mp list.
+[08-03-2025T20:45:18-0300] [Warning] 	 Status: 406
+[08-03-2025T20:45:18-0300] [Warning] 	 Message: {"error":"failed to query server: socket read timed out"}
+[08-03-2025T20:45:18-0300] [Warning] This won't affect the server's behaviour.
+Starting open.mp server (1.4.0.2783) from commit 601de2e1c8da86ff7979821a82bce20568d547dc
+Loading component Actors.dll
+	Successfully loaded component Actors (1.4.0.2783) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.4.0.2783) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.4.0.2783) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.4.0.2783) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.4.0.2783) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.4.0.2783) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.4.0.2783) with UID 44a111350d611dde
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.4.0.2783) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.4.0.2783) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.4.0.2783) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.4.0.2783) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.4.0.2783) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.4.0.2783) with UID 78906cd9f19c36a6
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.4.0.2783) with UID cf304faa363dd971
+Loading component Recordings.dll
+	Successfully loaded component Recordings (1.4.0.2783) with UID 871144d399f5f613
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.4.0.2783) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.4.0.2783) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.4.0.2783) with UID 2ad8124c5ea257a3
+Loading component Variables.dll
+	Successfully loaded component Variables (1.4.0.2783) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.4.0.2783) with UID 3f1f62ee9e22ab19
+Loaded 20 component(s) from C:\Users\lucas\gpbfreeroam-stable\components
+[08-03-2025T20:45:32-0300] [Info] Could not find:
+
+	 gamemodes\gungame.amx 
+While attempting to load a PAWN script, a file-not-found error was
+encountered.  This could be caused by many things:
+
+ * The wrong filename was given.
+ * The wrong gamemodes path was given.
+ * The server was launched from a different directory, making relative paths
+   relative to the wrong place (and thus wrong).
+ * You didn't copy the file to the correct directory or server.
+ * The compilation failed, leading to no output file.
+ * `-l` or `-a` were used to compile, which output intermediate steps for
+   inspecting, rather than a full script.
+ * Anything else, really just check the file is at the path given.
+
+[08-03-2025T20:45:33-0300] [Info] Legacy Network started on port 7777
+[08-03-2025T20:45:43-0300] [Warning] Couldn't announce legacy network to open.mp list.
+[08-03-2025T20:45:43-0300] [Warning] 	 Status: 406
+[08-03-2025T20:45:43-0300] [Warning] 	 Message: {"error":"failed to query server: socket read timed out"}
+[08-03-2025T20:45:43-0300] [Warning] This won't affect the server's behaviour.
+Starting open.mp server (1.4.0.2783) from commit 601de2e1c8da86ff7979821a82bce20568d547dc
+Loading component Actors.dll
+	Successfully loaded component Actors (1.4.0.2783) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.4.0.2783) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.4.0.2783) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.4.0.2783) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.4.0.2783) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.4.0.2783) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.4.0.2783) with UID 44a111350d611dde
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.4.0.2783) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.4.0.2783) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.4.0.2783) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.4.0.2783) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.4.0.2783) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.4.0.2783) with UID 78906cd9f19c36a6
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.4.0.2783) with UID cf304faa363dd971
+Loading component Recordings.dll
+	Successfully loaded component Recordings (1.4.0.2783) with UID 871144d399f5f613
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.4.0.2783) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.4.0.2783) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.4.0.2783) with UID 2ad8124c5ea257a3
+Loading component Variables.dll
+	Successfully loaded component Variables (1.4.0.2783) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.4.0.2783) with UID 3f1f62ee9e22ab19
+Loaded 20 component(s) from C:\Users\lucas\gpbfreeroam-stable\components
+[08-03-2025T20:47:11-0300] [Info] Could not find:
+
+	 gamemodes\gungame.amx 
+While attempting to load a PAWN script, a file-not-found error was
+encountered.  This could be caused by many things:
+
+ * The wrong filename was given.
+ * The wrong gamemodes path was given.
+ * The server was launched from a different directory, making relative paths
+   relative to the wrong place (and thus wrong).
+ * You didn't copy the file to the correct directory or server.
+ * The compilation failed, leading to no output file.
+ * `-l` or `-a` were used to compile, which output intermediate steps for
+   inspecting, rather than a full script.
+ * Anything else, really just check the file is at the path given.
+
+[08-03-2025T20:47:11-0300] [Info] Legacy Network started on port 7777
+[08-03-2025T20:47:21-0300] [Warning] Couldn't announce legacy network to open.mp list.
+[08-03-2025T20:47:21-0300] [Warning] 	 Status: 406
+[08-03-2025T20:47:21-0300] [Warning] 	 Message: {"error":"failed to query server: socket read timed out"}
+[08-03-2025T20:47:21-0300] [Warning] This won't affect the server's behaviour.
+Starting open.mp server (1.4.0.2783) from commit 601de2e1c8da86ff7979821a82bce20568d547dc
+Loading component Actors.dll
+	Successfully loaded component Actors (1.4.0.2783) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.4.0.2783) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.4.0.2783) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.4.0.2783) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.4.0.2783) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.4.0.2783) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.4.0.2783) with UID 44a111350d611dde
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.4.0.2783) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.4.0.2783) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.4.0.2783) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.4.0.2783) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.4.0.2783) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.4.0.2783) with UID 78906cd9f19c36a6
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.4.0.2783) with UID cf304faa363dd971
+Loading component Recordings.dll
+	Successfully loaded component Recordings (1.4.0.2783) with UID 871144d399f5f613
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.4.0.2783) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.4.0.2783) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.4.0.2783) with UID 2ad8124c5ea257a3
+Loading component Variables.dll
+	Successfully loaded component Variables (1.4.0.2783) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.4.0.2783) with UID 3f1f62ee9e22ab19
+Loaded 20 component(s) from C:\Users\lucas\gpbfreeroam-stable\components
+[08-03-2025T20:48:53-0300] [Info] Could not find:
+
+	 gamemodes\gungame.amx 
+While attempting to load a PAWN script, a file-not-found error was
+encountered.  This could be caused by many things:
+
+ * The wrong filename was given.
+ * The wrong gamemodes path was given.
+ * The server was launched from a different directory, making relative paths
+   relative to the wrong place (and thus wrong).
+ * You didn't copy the file to the correct directory or server.
+ * The compilation failed, leading to no output file.
+ * `-l` or `-a` were used to compile, which output intermediate steps for
+   inspecting, rather than a full script.
+ * Anything else, really just check the file is at the path given.
+
+[08-03-2025T20:48:53-0300] [Info] Legacy Network started on port 7777
+[08-03-2025T20:49:04-0300] [Warning] Couldn't announce legacy network to open.mp list.
+[08-03-2025T20:49:04-0300] [Warning] 	 Status: 406
+[08-03-2025T20:49:04-0300] [Warning] 	 Message: {"error":"failed to query server: socket read timed out"}
+[08-03-2025T20:49:04-0300] [Warning] This won't affect the server's behaviour.
+Starting open.mp server (1.4.0.2783) from commit 601de2e1c8da86ff7979821a82bce20568d547dc
+Loading component Actors.dll
+	Successfully loaded component Actors (1.4.0.2783) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.4.0.2783) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.4.0.2783) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.4.0.2783) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.4.0.2783) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.4.0.2783) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.4.0.2783) with UID 44a111350d611dde
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.4.0.2783) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.4.0.2783) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.4.0.2783) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.4.0.2783) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.4.0.2783) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.4.0.2783) with UID 78906cd9f19c36a6
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.4.0.2783) with UID cf304faa363dd971
+Loading component Recordings.dll
+	Successfully loaded component Recordings (1.4.0.2783) with UID 871144d399f5f613
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.4.0.2783) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.4.0.2783) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.4.0.2783) with UID 2ad8124c5ea257a3
+Loading component Variables.dll
+	Successfully loaded component Variables (1.4.0.2783) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.4.0.2783) with UID 3f1f62ee9e22ab19
+Loaded 20 component(s) from C:\Users\lucas\gpbfreeroam-stable\components
+[08-03-2025T20:49:22-0300] [Info] Could not find:
+
+	 gamemodes\gungame.amx 
+While attempting to load a PAWN script, a file-not-found error was
+encountered.  This could be caused by many things:
+
+ * The wrong filename was given.
+ * The wrong gamemodes path was given.
+ * The server was launched from a different directory, making relative paths
+   relative to the wrong place (and thus wrong).
+ * You didn't copy the file to the correct directory or server.
+ * The compilation failed, leading to no output file.
+ * `-l` or `-a` were used to compile, which output intermediate steps for
+   inspecting, rather than a full script.
+ * Anything else, really just check the file is at the path given.
+
+[08-03-2025T20:49:22-0300] [Info] Legacy Network started on port 7777
+[08-03-2025T20:49:33-0300] [Warning] Couldn't announce legacy network to open.mp list.
+[08-03-2025T20:49:33-0300] [Warning] 	 Status: 406
+[08-03-2025T20:49:33-0300] [Warning] 	 Message: {"error":"failed to query server: socket read timed out"}
+[08-03-2025T20:49:33-0300] [Warning] This won't affect the server's behaviour.
+Starting open.mp server (1.4.0.2783) from commit 601de2e1c8da86ff7979821a82bce20568d547dc
+Loading component Actors.dll
+	Successfully loaded component Actors (1.4.0.2783) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.4.0.2783) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.4.0.2783) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.4.0.2783) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.4.0.2783) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.4.0.2783) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.4.0.2783) with UID 44a111350d611dde
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.4.0.2783) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.4.0.2783) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.4.0.2783) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.4.0.2783) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.4.0.2783) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.4.0.2783) with UID 78906cd9f19c36a6
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.4.0.2783) with UID cf304faa363dd971
+Loading component Recordings.dll
+	Successfully loaded component Recordings (1.4.0.2783) with UID 871144d399f5f613
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.4.0.2783) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.4.0.2783) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.4.0.2783) with UID 2ad8124c5ea257a3
+Loading component Variables.dll
+	Successfully loaded component Variables (1.4.0.2783) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.4.0.2783) with UID 3f1f62ee9e22ab19
+Loaded 20 component(s) from C:\Users\lucas\gpbfreeroam-stable\components
+[08-03-2025T20:53:10-0300] [Info] Could not find:
+
+	 gamemodes\gungame.amx 
+While attempting to load a PAWN script, a file-not-found error was
+encountered.  This could be caused by many things:
+
+ * The wrong filename was given.
+ * The wrong gamemodes path was given.
+ * The server was launched from a different directory, making relative paths
+   relative to the wrong place (and thus wrong).
+ * You didn't copy the file to the correct directory or server.
+ * The compilation failed, leading to no output file.
+ * `-l` or `-a` were used to compile, which output intermediate steps for
+   inspecting, rather than a full script.
+ * Anything else, really just check the file is at the path given.
+
+[08-03-2025T20:53:10-0300] [Info] Legacy Network started on port 7777
+[08-03-2025T20:53:20-0300] [Warning] Couldn't announce legacy network to open.mp list.
+[08-03-2025T20:53:20-0300] [Warning] 	 Status: 406
+[08-03-2025T20:53:20-0300] [Warning] 	 Message: {"error":"failed to query server: socket read timed out"}
+[08-03-2025T20:53:20-0300] [Warning] This won't affect the server's behaviour.
+Starting open.mp server (1.4.0.2783) from commit 601de2e1c8da86ff7979821a82bce20568d547dc
+Loading component Actors.dll
+	Successfully loaded component Actors (1.4.0.2783) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.4.0.2783) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.4.0.2783) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.4.0.2783) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.4.0.2783) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.4.0.2783) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.4.0.2783) with UID 44a111350d611dde
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.4.0.2783) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.4.0.2783) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.4.0.2783) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.4.0.2783) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.4.0.2783) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.4.0.2783) with UID 78906cd9f19c36a6
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.4.0.2783) with UID cf304faa363dd971
+Loading component Recordings.dll
+	Successfully loaded component Recordings (1.4.0.2783) with UID 871144d399f5f613
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.4.0.2783) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.4.0.2783) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.4.0.2783) with UID 2ad8124c5ea257a3
+Loading component Variables.dll
+	Successfully loaded component Variables (1.4.0.2783) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.4.0.2783) with UID 3f1f62ee9e22ab19
+Loaded 20 component(s) from C:\Users\lucas\gpbfreeroam-stable\components
+[08-03-2025T20:57:56-0300] [Info] Could not find:
+
+	 gamemodes\gungame.amx 
+While attempting to load a PAWN script, a file-not-found error was
+encountered.  This could be caused by many things:
+
+ * The wrong filename was given.
+ * The wrong gamemodes path was given.
+ * The server was launched from a different directory, making relative paths
+   relative to the wrong place (and thus wrong).
+ * You didn't copy the file to the correct directory or server.
+ * The compilation failed, leading to no output file.
+ * `-l` or `-a` were used to compile, which output intermediate steps for
+   inspecting, rather than a full script.
+ * Anything else, really just check the file is at the path given.
+
+[08-03-2025T20:57:56-0300] [Info] Legacy Network started on port 7777
+Starting open.mp server (1.4.0.2783) from commit 601de2e1c8da86ff7979821a82bce20568d547dc
+Loading component Actors.dll
+	Successfully loaded component Actors (1.4.0.2783) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.4.0.2783) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.4.0.2783) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.4.0.2783) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.4.0.2783) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.4.0.2783) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.4.0.2783) with UID 44a111350d611dde
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.4.0.2783) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.4.0.2783) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.4.0.2783) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.4.0.2783) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.4.0.2783) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.4.0.2783) with UID 78906cd9f19c36a6
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.4.0.2783) with UID cf304faa363dd971
+Loading component Recordings.dll
+	Successfully loaded component Recordings (1.4.0.2783) with UID 871144d399f5f613
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.4.0.2783) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.4.0.2783) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.4.0.2783) with UID 2ad8124c5ea257a3
+Loading component Variables.dll
+	Successfully loaded component Variables (1.4.0.2783) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.4.0.2783) with UID 3f1f62ee9e22ab19
+Loaded 20 component(s) from C:\Users\lucas\gpbfreeroam-stable\components
+[08-03-2025T20:58:06-0300] [Info] Could not find:
+
+	 gamemodes\gungame.amx 
+While attempting to load a PAWN script, a file-not-found error was
+encountered.  This could be caused by many things:
+
+ * The wrong filename was given.
+ * The wrong gamemodes path was given.
+ * The server was launched from a different directory, making relative paths
+   relative to the wrong place (and thus wrong).
+ * You didn't copy the file to the correct directory or server.
+ * The compilation failed, leading to no output file.
+ * `-l` or `-a` were used to compile, which output intermediate steps for
+   inspecting, rather than a full script.
+ * Anything else, really just check the file is at the path given.
+
+[08-03-2025T20:58:06-0300] [Info] Legacy Network started on port 7777
+[08-03-2025T20:58:16-0300] [Warning] Couldn't announce legacy network to open.mp list.
+[08-03-2025T20:58:16-0300] [Warning] 	 Status: 406
+[08-03-2025T20:58:16-0300] [Warning] 	 Message: {"error":"failed to query server: socket read timed out"}
+[08-03-2025T20:58:16-0300] [Warning] This won't affect the server's behaviour.
+[08-03-2025T20:58:32-0300] [Info] [connection] incoming connection: 26.25.155.145:58538 id: 0
+[08-03-2025T20:58:32-0300] [Info] [join] [GPB]Lucas has joined the server (0:26.25.155.145)
+[08-03-2025T20:59:14-0300] [Info] [part] [GPB]Lucas has left the server (0:0)
+Starting open.mp server (1.4.0.2783) from commit 601de2e1c8da86ff7979821a82bce20568d547dc
+Loading component Actors.dll
+	Successfully loaded component Actors (1.4.0.2783) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.4.0.2783) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.4.0.2783) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.4.0.2783) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.4.0.2783) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.4.0.2783) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.4.0.2783) with UID 44a111350d611dde
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.4.0.2783) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.4.0.2783) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.4.0.2783) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.4.0.2783) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.4.0.2783) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.4.0.2783) with UID 78906cd9f19c36a6
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.4.0.2783) with UID cf304faa363dd971
+Loading component Recordings.dll
+	Successfully loaded component Recordings (1.4.0.2783) with UID 871144d399f5f613
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.4.0.2783) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.4.0.2783) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.4.0.2783) with UID 2ad8124c5ea257a3
+Loading component Variables.dll
+	Successfully loaded component Variables (1.4.0.2783) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.4.0.2783) with UID 3f1f62ee9e22ab19
+Loaded 20 component(s) from C:\Users\lucas\gpbfreeroam-stable\components
+[08-03-2025T21:06:03-0300] [Info] Could not find:
+
+	 gamemodes\gungame.amx 
+While attempting to load a PAWN script, a file-not-found error was
+encountered.  This could be caused by many things:
+
+ * The wrong filename was given.
+ * The wrong gamemodes path was given.
+ * The server was launched from a different directory, making relative paths
+   relative to the wrong place (and thus wrong).
+ * You didn't copy the file to the correct directory or server.
+ * The compilation failed, leading to no output file.
+ * `-l` or `-a` were used to compile, which output intermediate steps for
+   inspecting, rather than a full script.
+ * Anything else, really just check the file is at the path given.
+
+[08-03-2025T21:06:03-0300] [Info] Legacy Network started on port 7777
+[08-03-2025T21:06:15-0300] [Warning] Couldn't announce legacy network to open.mp list.
+[08-03-2025T21:06:15-0300] [Warning] 	 Status: 406
+[08-03-2025T21:06:15-0300] [Warning] 	 Message: {"error":"failed to query server: socket read timed out"}
+[08-03-2025T21:06:15-0300] [Warning] This won't affect the server's behaviour.
+Starting open.mp server (1.4.0.2783) from commit 601de2e1c8da86ff7979821a82bce20568d547dc
+Loading component Actors.dll
+	Successfully loaded component Actors (1.4.0.2783) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.4.0.2783) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.4.0.2783) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.4.0.2783) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.4.0.2783) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.4.0.2783) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.4.0.2783) with UID 44a111350d611dde
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.4.0.2783) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.4.0.2783) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.4.0.2783) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.4.0.2783) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.4.0.2783) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.4.0.2783) with UID 78906cd9f19c36a6
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.4.0.2783) with UID cf304faa363dd971
+Loading component Recordings.dll
+	Successfully loaded component Recordings (1.4.0.2783) with UID 871144d399f5f613
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.4.0.2783) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.4.0.2783) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.4.0.2783) with UID 2ad8124c5ea257a3
+Loading component Variables.dll
+	Successfully loaded component Variables (1.4.0.2783) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.4.0.2783) with UID 3f1f62ee9e22ab19
+Loaded 20 component(s) from C:\Users\lucas\gpbfreeroam-stable\components
+[08-03-2025T21:07:06-0300] [Info] Could not find:
+
+	 gamemodes\gungame.amx 
+While attempting to load a PAWN script, a file-not-found error was
+encountered.  This could be caused by many things:
+
+ * The wrong filename was given.
+ * The wrong gamemodes path was given.
+ * The server was launched from a different directory, making relative paths
+   relative to the wrong place (and thus wrong).
+ * You didn't copy the file to the correct directory or server.
+ * The compilation failed, leading to no output file.
+ * `-l` or `-a` were used to compile, which output intermediate steps for
+   inspecting, rather than a full script.
+ * Anything else, really just check the file is at the path given.
+
+[08-03-2025T21:07:06-0300] [Info] Legacy Network started on port 7777
+[08-03-2025T21:07:17-0300] [Warning] Couldn't announce legacy network to open.mp list.
+[08-03-2025T21:07:17-0300] [Warning] 	 Status: 406
+[08-03-2025T21:07:17-0300] [Warning] 	 Message: {"error":"failed to query server: socket read timed out"}
+[08-03-2025T21:07:17-0300] [Warning] This won't affect the server's behaviour.
+Starting open.mp server (1.4.0.2783) from commit 601de2e1c8da86ff7979821a82bce20568d547dc
+Loading component Actors.dll
+	Successfully loaded component Actors (1.4.0.2783) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.4.0.2783) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.4.0.2783) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.4.0.2783) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.4.0.2783) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.4.0.2783) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.4.0.2783) with UID 44a111350d611dde
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.4.0.2783) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.4.0.2783) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.4.0.2783) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.4.0.2783) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.4.0.2783) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.4.0.2783) with UID 78906cd9f19c36a6
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.4.0.2783) with UID cf304faa363dd971
+Loading component Recordings.dll
+	Successfully loaded component Recordings (1.4.0.2783) with UID 871144d399f5f613
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.4.0.2783) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.4.0.2783) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.4.0.2783) with UID 2ad8124c5ea257a3
+Loading component Variables.dll
+	Successfully loaded component Variables (1.4.0.2783) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.4.0.2783) with UID 3f1f62ee9e22ab19
+Loaded 20 component(s) from C:\Users\lucas\gpbfreeroam-stable\components
+[08-03-2025T21:09:43-0300] [Info] Could not find:
+
+	 gamemodes\gungame.amx 
+While attempting to load a PAWN script, a file-not-found error was
+encountered.  This could be caused by many things:
+
+ * The wrong filename was given.
+ * The wrong gamemodes path was given.
+ * The server was launched from a different directory, making relative paths
+   relative to the wrong place (and thus wrong).
+ * You didn't copy the file to the correct directory or server.
+ * The compilation failed, leading to no output file.
+ * `-l` or `-a` were used to compile, which output intermediate steps for
+   inspecting, rather than a full script.
+ * Anything else, really just check the file is at the path given.
+
+[08-03-2025T21:09:43-0300] [Info] Legacy Network started on port 7777
+[08-03-2025T21:09:54-0300] [Warning] Couldn't announce legacy network to open.mp list.
+[08-03-2025T21:09:54-0300] [Warning] 	 Status: 406
+[08-03-2025T21:09:54-0300] [Warning] 	 Message: {"error":"failed to query server: socket read timed out"}
+[08-03-2025T21:09:54-0300] [Warning] This won't affect the server's behaviour.
+Starting open.mp server (1.4.0.2783) from commit 601de2e1c8da86ff7979821a82bce20568d547dc
+Loading component Actors.dll
+	Successfully loaded component Actors (1.4.0.2783) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.4.0.2783) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.4.0.2783) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.4.0.2783) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.4.0.2783) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.4.0.2783) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.4.0.2783) with UID 44a111350d611dde
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.4.0.2783) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.4.0.2783) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.4.0.2783) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.4.0.2783) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.4.0.2783) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.4.0.2783) with UID 78906cd9f19c36a6
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.4.0.2783) with UID cf304faa363dd971
+Loading component Recordings.dll
+	Successfully loaded component Recordings (1.4.0.2783) with UID 871144d399f5f613
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.4.0.2783) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.4.0.2783) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.4.0.2783) with UID 2ad8124c5ea257a3
+Loading component Variables.dll
+	Successfully loaded component Variables (1.4.0.2783) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.4.0.2783) with UID 3f1f62ee9e22ab19
+Loaded 20 component(s) from C:\Users\lucas\gpbfreeroam-stable\components
+[08-03-2025T21:12:52-0300] [Info] Could not find:
+
+	 gamemodes\gungame.amx 
+While attempting to load a PAWN script, a file-not-found error was
+encountered.  This could be caused by many things:
+
+ * The wrong filename was given.
+ * The wrong gamemodes path was given.
+ * The server was launched from a different directory, making relative paths
+   relative to the wrong place (and thus wrong).
+ * You didn't copy the file to the correct directory or server.
+ * The compilation failed, leading to no output file.
+ * `-l` or `-a` were used to compile, which output intermediate steps for
+   inspecting, rather than a full script.
+ * Anything else, really just check the file is at the path given.
+
+[08-03-2025T21:12:52-0300] [Info] Legacy Network started on port 7777
+[08-03-2025T21:13:03-0300] [Warning] Couldn't announce legacy network to open.mp list.
+[08-03-2025T21:13:03-0300] [Warning] 	 Status: 406
+[08-03-2025T21:13:03-0300] [Warning] 	 Message: {"error":"failed to query server: socket read timed out"}
+[08-03-2025T21:13:03-0300] [Warning] This won't affect the server's behaviour.
+[08-03-2025T21:13:15-0300] [Info] [connection] incoming connection: 26.25.155.145:63465 id: 0
+[08-03-2025T21:13:15-0300] [Info] [join] [GPB]Lucas has joined the server (0:26.25.155.145)
+Starting open.mp server (1.4.0.2783) from commit 601de2e1c8da86ff7979821a82bce20568d547dc
+Loading component Actors.dll
+	Successfully loaded component Actors (1.4.0.2783) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.4.0.2783) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.4.0.2783) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.4.0.2783) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.4.0.2783) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.4.0.2783) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.4.0.2783) with UID 44a111350d611dde
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.4.0.2783) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.4.0.2783) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.4.0.2783) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.4.0.2783) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.4.0.2783) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.4.0.2783) with UID 78906cd9f19c36a6
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.4.0.2783) with UID cf304faa363dd971
+Loading component Recordings.dll
+	Successfully loaded component Recordings (1.4.0.2783) with UID 871144d399f5f613
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.4.0.2783) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.4.0.2783) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.4.0.2783) with UID 2ad8124c5ea257a3
+Loading component Variables.dll
+	Successfully loaded component Variables (1.4.0.2783) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.4.0.2783) with UID 3f1f62ee9e22ab19
+Loaded 20 component(s) from C:\Users\lucas\gpbfreeroam-stable\components
+[08-03-2025T21:14:55-0300] [Info] Could not find:
+
+	 gamemodes\gungame.amx 
+While attempting to load a PAWN script, a file-not-found error was
+encountered.  This could be caused by many things:
+
+ * The wrong filename was given.
+ * The wrong gamemodes path was given.
+ * The server was launched from a different directory, making relative paths
+   relative to the wrong place (and thus wrong).
+ * You didn't copy the file to the correct directory or server.
+ * The compilation failed, leading to no output file.
+ * `-l` or `-a` were used to compile, which output intermediate steps for
+   inspecting, rather than a full script.
+ * Anything else, really just check the file is at the path given.
+
+[08-03-2025T21:14:55-0300] [Info] Legacy Network started on port 7777
+[08-03-2025T21:15:06-0300] [Warning] Couldn't announce legacy network to open.mp list.
+[08-03-2025T21:15:06-0300] [Warning] 	 Status: 406
+[08-03-2025T21:15:06-0300] [Warning] 	 Message: {"error":"failed to query server: socket read timed out"}
+[08-03-2025T21:15:06-0300] [Warning] This won't affect the server's behaviour.
+Starting open.mp server (1.4.0.2783) from commit 601de2e1c8da86ff7979821a82bce20568d547dc
+Loading component Actors.dll
+	Successfully loaded component Actors (1.4.0.2783) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.4.0.2783) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.4.0.2783) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.4.0.2783) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.4.0.2783) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.4.0.2783) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.4.0.2783) with UID 44a111350d611dde
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.4.0.2783) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.4.0.2783) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.4.0.2783) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.4.0.2783) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.4.0.2783) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.4.0.2783) with UID 78906cd9f19c36a6
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.4.0.2783) with UID cf304faa363dd971
+Loading component Recordings.dll
+	Successfully loaded component Recordings (1.4.0.2783) with UID 871144d399f5f613
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.4.0.2783) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.4.0.2783) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.4.0.2783) with UID 2ad8124c5ea257a3
+Loading component Variables.dll
+	Successfully loaded component Variables (1.4.0.2783) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.4.0.2783) with UID 3f1f62ee9e22ab19
+Loaded 20 component(s) from C:\Users\lucas\gpbfreeroam-stable\components
+[08-03-2025T21:15:25-0300] [Info] Could not find:
+
+	 gamemodes\gungame.amx 
+While attempting to load a PAWN script, a file-not-found error was
+encountered.  This could be caused by many things:
+
+ * The wrong filename was given.
+ * The wrong gamemodes path was given.
+ * The server was launched from a different directory, making relative paths
+   relative to the wrong place (and thus wrong).
+ * You didn't copy the file to the correct directory or server.
+ * The compilation failed, leading to no output file.
+ * `-l` or `-a` were used to compile, which output intermediate steps for
+   inspecting, rather than a full script.
+ * Anything else, really just check the file is at the path given.
+
+[08-03-2025T21:15:25-0300] [Info] Legacy Network started on port 7777
+Starting open.mp server (1.4.0.2783) from commit 601de2e1c8da86ff7979821a82bce20568d547dc
+Loading component Actors.dll
+	Successfully loaded component Actors (1.4.0.2783) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.4.0.2783) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.4.0.2783) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.4.0.2783) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.4.0.2783) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.4.0.2783) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.4.0.2783) with UID 44a111350d611dde
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.4.0.2783) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.4.0.2783) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.4.0.2783) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.4.0.2783) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.4.0.2783) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.4.0.2783) with UID 78906cd9f19c36a6
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.4.0.2783) with UID cf304faa363dd971
+Loading component Recordings.dll
+	Successfully loaded component Recordings (1.4.0.2783) with UID 871144d399f5f613
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.4.0.2783) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.4.0.2783) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.4.0.2783) with UID 2ad8124c5ea257a3
+Loading component Variables.dll
+	Successfully loaded component Variables (1.4.0.2783) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.4.0.2783) with UID 3f1f62ee9e22ab19
+Loaded 20 component(s) from C:\Users\lucas\gpbfreeroam-stable\components
+[08-03-2025T21:16:13-0300] [Info] Legacy Network started on port 7777
+[08-03-2025T21:16:24-0300] [Warning] Couldn't announce legacy network to open.mp list.
+[08-03-2025T21:16:24-0300] [Warning] 	 Status: 406
+[08-03-2025T21:16:24-0300] [Warning] 	 Message: {"error":"failed to query server: socket read timed out"}
+[08-03-2025T21:16:24-0300] [Warning] This won't affect the server's behaviour.
+[08-03-2025T21:16:57-0300] [Info] [connection] incoming connection: 26.25.155.145:61529 id: 0
+[08-03-2025T21:16:57-0300] [Info] [join] [GPB]Lucas has joined the server (0:26.25.155.145)
+[08-03-2025T21:17:09-0300] [Info] [chat] [[GPB]Lucas]: a
+[08-03-2025T21:17:39-0300] [Info] [part] [GPB]Lucas has left the server (0:0)
+[08-03-2025T21:17:40-0300] [Info] [connection] incoming connection: 26.25.155.145:57687 id: 0
+[08-03-2025T21:17:41-0300] [Info] [join] [GPB]Lucas has joined the server (0:26.25.155.145)
+Starting open.mp server (1.4.0.2783) from commit 601de2e1c8da86ff7979821a82bce20568d547dc
+Loading component Actors.dll
+	Successfully loaded component Actors (1.4.0.2783) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.4.0.2783) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.4.0.2783) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.4.0.2783) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.4.0.2783) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.4.0.2783) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.4.0.2783) with UID 44a111350d611dde
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.4.0.2783) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.4.0.2783) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.4.0.2783) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.4.0.2783) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.4.0.2783) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.4.0.2783) with UID 78906cd9f19c36a6
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.4.0.2783) with UID cf304faa363dd971
+Loading component Recordings.dll
+	Successfully loaded component Recordings (1.4.0.2783) with UID 871144d399f5f613
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.4.0.2783) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.4.0.2783) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.4.0.2783) with UID 2ad8124c5ea257a3
+Loading component Variables.dll
+	Successfully loaded component Variables (1.4.0.2783) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.4.0.2783) with UID 3f1f62ee9e22ab19
+Loaded 20 component(s) from C:\Users\lucas\gpbfreeroam-stable\components
+[08-03-2025T21:18:54-0300] [Info] Legacy Network started on port 7777
+[08-03-2025T21:19:05-0300] [Warning] Couldn't announce legacy network to open.mp list.
+[08-03-2025T21:19:05-0300] [Warning] 	 Status: 406
+[08-03-2025T21:19:05-0300] [Warning] 	 Message: {"error":"failed to query server: socket read timed out"}
+[08-03-2025T21:19:05-0300] [Warning] This won't affect the server's behaviour.
+[08-03-2025T21:19:13-0300] [Info] [connection] incoming connection: 26.25.155.145:58285 id: 0
+[08-03-2025T21:19:13-0300] [Info] [join] [GPB]Lucas has joined the server (0:26.25.155.145)
+Starting open.mp server (1.4.0.2783) from commit 601de2e1c8da86ff7979821a82bce20568d547dc
+Loading component Actors.dll
+	Successfully loaded component Actors (1.4.0.2783) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.4.0.2783) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.4.0.2783) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.4.0.2783) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.4.0.2783) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.4.0.2783) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.4.0.2783) with UID 44a111350d611dde
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.4.0.2783) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.4.0.2783) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.4.0.2783) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.4.0.2783) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.4.0.2783) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.4.0.2783) with UID 78906cd9f19c36a6
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.4.0.2783) with UID cf304faa363dd971
+Loading component Recordings.dll
+	Successfully loaded component Recordings (1.4.0.2783) with UID 871144d399f5f613
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.4.0.2783) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.4.0.2783) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.4.0.2783) with UID 2ad8124c5ea257a3
+Loading component Variables.dll
+	Successfully loaded component Variables (1.4.0.2783) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.4.0.2783) with UID 3f1f62ee9e22ab19
+Loaded 20 component(s) from C:\Users\lucas\gpbfreeroam-stable\components
+[08-03-2025T21:19:34-0300] [Info] Legacy Network started on port 7777
+[08-03-2025T21:19:45-0300] [Warning] Couldn't announce legacy network to open.mp list.
+[08-03-2025T21:19:45-0300] [Warning] 	 Status: 406
+[08-03-2025T21:19:45-0300] [Warning] 	 Message: {"error":"failed to query server: socket read timed out"}
+[08-03-2025T21:19:45-0300] [Warning] This won't affect the server's behaviour.
+Starting open.mp server (1.4.0.2783) from commit 601de2e1c8da86ff7979821a82bce20568d547dc
+Loading component Actors.dll
+	Successfully loaded component Actors (1.4.0.2783) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.4.0.2783) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.4.0.2783) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.4.0.2783) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.4.0.2783) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.4.0.2783) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.4.0.2783) with UID 44a111350d611dde
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.4.0.2783) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.4.0.2783) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.4.0.2783) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.4.0.2783) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.4.0.2783) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.4.0.2783) with UID 78906cd9f19c36a6
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.4.0.2783) with UID cf304faa363dd971
+Loading component Recordings.dll
+	Successfully loaded component Recordings (1.4.0.2783) with UID 871144d399f5f613
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.4.0.2783) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.4.0.2783) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.4.0.2783) with UID 2ad8124c5ea257a3
+Loading component Variables.dll
+	Successfully loaded component Variables (1.4.0.2783) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.4.0.2783) with UID 3f1f62ee9e22ab19
+Loaded 20 component(s) from C:\Users\lucas\gpbfreeroam-stable\components
+[08-03-2025T21:20:00-0300] [Info] Legacy Network started on port 7777
+Starting open.mp server (1.4.0.2783) from commit 601de2e1c8da86ff7979821a82bce20568d547dc
+Loading component Actors.dll
+	Successfully loaded component Actors (1.4.0.2783) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.4.0.2783) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.4.0.2783) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.4.0.2783) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.4.0.2783) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.4.0.2783) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.4.0.2783) with UID 44a111350d611dde
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.4.0.2783) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.4.0.2783) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.4.0.2783) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.4.0.2783) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.4.0.2783) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.4.0.2783) with UID 78906cd9f19c36a6
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.4.0.2783) with UID cf304faa363dd971
+Loading component Recordings.dll
+	Successfully loaded component Recordings (1.4.0.2783) with UID 871144d399f5f613
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.4.0.2783) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.4.0.2783) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.4.0.2783) with UID 2ad8124c5ea257a3
+Loading component Variables.dll
+	Successfully loaded component Variables (1.4.0.2783) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.4.0.2783) with UID 3f1f62ee9e22ab19
+Loaded 20 component(s) from C:\Users\lucas\gpbfreeroam-stable\components
+[08-03-2025T21:20:07-0300] [Info] Legacy Network started on port 7777
+[08-03-2025T21:20:18-0300] [Warning] Couldn't announce legacy network to open.mp list.
+[08-03-2025T21:20:18-0300] [Warning] 	 Status: 406
+[08-03-2025T21:20:18-0300] [Warning] 	 Message: {"error":"failed to query server: socket read timed out"}
+[08-03-2025T21:20:18-0300] [Warning] This won't affect the server's behaviour.
+[08-03-2025T21:20:43-0300] [Info] [connection] incoming connection: 26.25.155.145:59539 id: 0
+[08-03-2025T21:20:43-0300] [Info] [join] [GPB]Lucas has joined the server (0:26.25.155.145)
+[08-03-2025T21:21:28-0300] [Info] [part] [GPB]Lucas has left the server (0:0)
+Starting open.mp server (1.4.0.2783) from commit 601de2e1c8da86ff7979821a82bce20568d547dc
+Loading component Actors.dll
+	Successfully loaded component Actors (1.4.0.2783) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.4.0.2783) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.4.0.2783) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.4.0.2783) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.4.0.2783) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.4.0.2783) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.4.0.2783) with UID 44a111350d611dde
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.4.0.2783) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.4.0.2783) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.4.0.2783) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.4.0.2783) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.4.0.2783) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.4.0.2783) with UID 78906cd9f19c36a6
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.4.0.2783) with UID cf304faa363dd971
+Loading component Recordings.dll
+	Successfully loaded component Recordings (1.4.0.2783) with UID 871144d399f5f613
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.4.0.2783) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.4.0.2783) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.4.0.2783) with UID 2ad8124c5ea257a3
+Loading component Variables.dll
+	Successfully loaded component Variables (1.4.0.2783) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.4.0.2783) with UID 3f1f62ee9e22ab19
+Loaded 20 component(s) from C:\Users\lucas\gpbfreeroam-stable\components
+[08-03-2025T21:22:59-0300] [Info] Legacy Network started on port 7777
+[08-03-2025T21:23:10-0300] [Warning] Couldn't announce legacy network to open.mp list.
+[08-03-2025T21:23:10-0300] [Warning] 	 Status: 406
+[08-03-2025T21:23:10-0300] [Warning] 	 Message: {"error":"failed to query server: socket read timed out"}
+[08-03-2025T21:23:10-0300] [Warning] This won't affect the server's behaviour.
+[08-03-2025T21:23:20-0300] [Info] [connection] incoming connection: 26.25.155.145:64664 id: 0
+[08-03-2025T21:23:20-0300] [Info] [join] [GPB]Lucas has joined the server (0:26.25.155.145)
+Starting open.mp server (1.4.0.2783) from commit 601de2e1c8da86ff7979821a82bce20568d547dc
+Loading component Actors.dll
+	Successfully loaded component Actors (1.4.0.2783) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.4.0.2783) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.4.0.2783) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.4.0.2783) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.4.0.2783) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.4.0.2783) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.4.0.2783) with UID 44a111350d611dde
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.4.0.2783) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.4.0.2783) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.4.0.2783) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.4.0.2783) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.4.0.2783) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.4.0.2783) with UID 78906cd9f19c36a6
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.4.0.2783) with UID cf304faa363dd971
+Loading component Recordings.dll
+	Successfully loaded component Recordings (1.4.0.2783) with UID 871144d399f5f613
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.4.0.2783) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.4.0.2783) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.4.0.2783) with UID 2ad8124c5ea257a3
+Loading component Variables.dll
+	Successfully loaded component Variables (1.4.0.2783) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.4.0.2783) with UID 3f1f62ee9e22ab19
+Loaded 20 component(s) from C:\Users\lucas\gpbfreeroam-stable\components
+[08-03-2025T21:28:06-0300] [Info] Legacy Network started on port 7777
+[08-03-2025T21:28:17-0300] [Warning] Couldn't announce legacy network to open.mp list.
+[08-03-2025T21:28:17-0300] [Warning] 	 Status: 406
+[08-03-2025T21:28:17-0300] [Warning] 	 Message: {"error":"failed to query server: socket read timed out"}
+[08-03-2025T21:28:17-0300] [Warning] This won't affect the server's behaviour.
+Starting open.mp server (1.4.0.2783) from commit 601de2e1c8da86ff7979821a82bce20568d547dc
+Loading component Actors.dll
+	Successfully loaded component Actors (1.4.0.2783) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.4.0.2783) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.4.0.2783) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.4.0.2783) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.4.0.2783) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.4.0.2783) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.4.0.2783) with UID 44a111350d611dde
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.4.0.2783) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.4.0.2783) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.4.0.2783) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.4.0.2783) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.4.0.2783) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.4.0.2783) with UID 78906cd9f19c36a6
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.4.0.2783) with UID cf304faa363dd971
+Loading component Recordings.dll
+	Successfully loaded component Recordings (1.4.0.2783) with UID 871144d399f5f613
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.4.0.2783) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.4.0.2783) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.4.0.2783) with UID 2ad8124c5ea257a3
+Loading component Variables.dll
+	Successfully loaded component Variables (1.4.0.2783) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.4.0.2783) with UID 3f1f62ee9e22ab19
+Loaded 20 component(s) from C:\Users\lucas\gpbfreeroam-stable\components
+[08-03-2025T21:28:56-0300] [Info] Legacy Network started on port 7777
+[08-03-2025T21:29:07-0300] [Warning] Couldn't announce legacy network to open.mp list.
+[08-03-2025T21:29:07-0300] [Warning] 	 Status: 406
+[08-03-2025T21:29:07-0300] [Warning] 	 Message: {"error":"failed to query server: socket read timed out"}
+[08-03-2025T21:29:07-0300] [Warning] This won't affect the server's behaviour.
+[08-03-2025T21:29:38-0300] [Info] [connection] incoming connection: 26.25.155.145:58982 id: 0
+[08-03-2025T21:29:38-0300] [Info] [join] [GPB]Lucas has joined the server (0:26.25.155.145)
+[08-03-2025T21:29:47-0300] [Info] [chat] [[GPB]Lucas]: po
+Starting open.mp server (1.4.0.2783) from commit 601de2e1c8da86ff7979821a82bce20568d547dc
+Loading component Actors.dll
+	Successfully loaded component Actors (1.4.0.2783) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.4.0.2783) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.4.0.2783) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.4.0.2783) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.4.0.2783) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.4.0.2783) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.4.0.2783) with UID 44a111350d611dde
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.4.0.2783) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.4.0.2783) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.4.0.2783) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.4.0.2783) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.4.0.2783) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.4.0.2783) with UID 78906cd9f19c36a6
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.4.0.2783) with UID cf304faa363dd971
+Loading component Recordings.dll
+	Successfully loaded component Recordings (1.4.0.2783) with UID 871144d399f5f613
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.4.0.2783) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.4.0.2783) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.4.0.2783) with UID 2ad8124c5ea257a3
+Loading component Variables.dll
+	Successfully loaded component Variables (1.4.0.2783) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.4.0.2783) with UID 3f1f62ee9e22ab19
+Loaded 20 component(s) from C:\Users\lucas\gpbfreeroam-stable\components
+[08-03-2025T21:30:08-0300] [Info] Legacy Network started on port 7777
+[08-03-2025T21:30:19-0300] [Warning] Couldn't announce legacy network to open.mp list.
+[08-03-2025T21:30:19-0300] [Warning] 	 Status: 406
+[08-03-2025T21:30:19-0300] [Warning] 	 Message: {"error":"failed to query server: socket read timed out"}
+[08-03-2025T21:30:19-0300] [Warning] This won't affect the server's behaviour.
+Starting open.mp server (1.4.0.2783) from commit 601de2e1c8da86ff7979821a82bce20568d547dc
+Loading component Actors.dll
+	Successfully loaded component Actors (1.4.0.2783) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.4.0.2783) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.4.0.2783) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.4.0.2783) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.4.0.2783) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.4.0.2783) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.4.0.2783) with UID 44a111350d611dde
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.4.0.2783) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.4.0.2783) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.4.0.2783) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.4.0.2783) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.4.0.2783) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.4.0.2783) with UID 78906cd9f19c36a6
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.4.0.2783) with UID cf304faa363dd971
+Loading component Recordings.dll
+	Successfully loaded component Recordings (1.4.0.2783) with UID 871144d399f5f613
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.4.0.2783) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.4.0.2783) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.4.0.2783) with UID 2ad8124c5ea257a3
+Loading component Variables.dll
+	Successfully loaded component Variables (1.4.0.2783) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.4.0.2783) with UID 3f1f62ee9e22ab19
+Loaded 20 component(s) from C:\Users\lucas\gpbfreeroam-stable\components
+[08-03-2025T21:34:00-0300] [Info] Legacy Network started on port 7777
+[08-03-2025T21:34:11-0300] [Warning] Couldn't announce legacy network to open.mp list.
+[08-03-2025T21:34:11-0300] [Warning] 	 Status: 406
+[08-03-2025T21:34:11-0300] [Warning] 	 Message: {"error":"failed to query server: socket read timed out"}
+[08-03-2025T21:34:11-0300] [Warning] This won't affect the server's behaviour.
+[08-03-2025T21:34:25-0300] [Info] [connection] incoming connection: 26.25.155.145:54311 id: 0
+[08-03-2025T21:34:25-0300] [Info] [join] [GPB]Lucas has joined the server (0:26.25.155.145)
+Starting open.mp server (1.4.0.2783) from commit 601de2e1c8da86ff7979821a82bce20568d547dc
+Loading component Actors.dll
+	Successfully loaded component Actors (1.4.0.2783) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.4.0.2783) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.4.0.2783) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.4.0.2783) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.4.0.2783) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.4.0.2783) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.4.0.2783) with UID 44a111350d611dde
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.4.0.2783) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.4.0.2783) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.4.0.2783) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.4.0.2783) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.4.0.2783) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.4.0.2783) with UID 78906cd9f19c36a6
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.4.0.2783) with UID cf304faa363dd971
+Loading component Recordings.dll
+	Successfully loaded component Recordings (1.4.0.2783) with UID 871144d399f5f613
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.4.0.2783) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.4.0.2783) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.4.0.2783) with UID 2ad8124c5ea257a3
+Loading component Variables.dll
+	Successfully loaded component Variables (1.4.0.2783) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.4.0.2783) with UID 3f1f62ee9e22ab19
+Loaded 20 component(s) from C:\Users\lucas\gpbfreeroam-stable\components
+[08-03-2025T21:37:56-0300] [Info] Legacy Network started on port 7777
+[08-03-2025T21:38:07-0300] [Warning] Couldn't announce legacy network to open.mp list.
+[08-03-2025T21:38:07-0300] [Warning] 	 Status: 406
+[08-03-2025T21:38:07-0300] [Warning] 	 Message: {"error":"failed to query server: socket read timed out"}
+[08-03-2025T21:38:07-0300] [Warning] This won't affect the server's behaviour.
+[08-03-2025T21:38:11-0300] [Info] [connection] incoming connection: 26.25.155.145:57974 id: 0
+[08-03-2025T21:38:12-0300] [Info] [join] [GPB]Lucas has joined the server (0:26.25.155.145)
+[08-03-2025T21:38:42-0300] [Info] [part] [GPB]Lucas has left the server (0:0)
+[08-03-2025T21:38:59-0300] [Info] [connection] incoming connection: 26.25.155.145:61151 id: 0
+[08-03-2025T21:38:59-0300] [Info] [join] [GPB]Lucas has joined the server (0:26.25.155.145)
+[08-03-2025T21:40:45-0300] [Info] [part] [GPB]Lucas has left the server (0:0)
+Starting open.mp server (1.4.0.2783) from commit 601de2e1c8da86ff7979821a82bce20568d547dc
+Loading component Actors.dll
+	Successfully loaded component Actors (1.4.0.2783) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.4.0.2783) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.4.0.2783) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.4.0.2783) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.4.0.2783) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.4.0.2783) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.4.0.2783) with UID 44a111350d611dde
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.4.0.2783) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.4.0.2783) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.4.0.2783) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.4.0.2783) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.4.0.2783) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.4.0.2783) with UID 78906cd9f19c36a6
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.4.0.2783) with UID cf304faa363dd971
+Loading component Recordings.dll
+	Successfully loaded component Recordings (1.4.0.2783) with UID 871144d399f5f613
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.4.0.2783) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.4.0.2783) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.4.0.2783) with UID 2ad8124c5ea257a3
+Loading component Variables.dll
+	Successfully loaded component Variables (1.4.0.2783) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.4.0.2783) with UID 3f1f62ee9e22ab19
+Loaded 20 component(s) from C:\Users\lucas\gpbfreeroam-stable\components
+[08-03-2025T21:57:08-0300] [Info] Legacy Network started on port 7777
+[08-03-2025T21:57:19-0300] [Warning] Couldn't announce legacy network to open.mp list.
+[08-03-2025T21:57:19-0300] [Warning] 	 Status: 406
+[08-03-2025T21:57:19-0300] [Warning] 	 Message: {"error":"failed to query server: socket read timed out"}
+[08-03-2025T21:57:19-0300] [Warning] This won't affect the server's behaviour.
+[08-03-2025T21:57:28-0300] [Info] [connection] incoming connection: 26.25.155.145:62631 id: 0
+[08-03-2025T21:57:28-0300] [Info] [join] [GPB]Lucas has joined the server (0:26.25.155.145)
+Starting open.mp server (1.4.0.2783) from commit 601de2e1c8da86ff7979821a82bce20568d547dc
+Loading component Actors.dll
+	Successfully loaded component Actors (1.4.0.2783) with UID c81ca021eae2ad5c
+Loading component Checkpoints.dll
+	Successfully loaded component Checkpoints (1.4.0.2783) with UID 44a937350d611dde
+Loading component Classes.dll
+	Successfully loaded component Classes (1.4.0.2783) with UID 8cfb3183976da208
+Loading component Console.dll
+	Successfully loaded component Console (1.4.0.2783) with UID bfa24e49d0c95ee4
+Loading component CustomModels.dll
+	Successfully loaded component CustomModels (1.4.0.2783) with UID 15e3cb1e7c77ffff
+Loading component Databases.dll
+	Successfully loaded component Databases (1.4.0.2783) with UID 80092e7eb5821a96
+Loading component Dialogs.dll
+	Successfully loaded component Dialogs (1.4.0.2783) with UID 44a111350d611dde
+Loading component GangZones.dll
+	Successfully loaded component GangZones (1.4.0.2783) with UID b3351d11ee8d8056
+Loading component LegacyConfig.dll
+	Successfully loaded component LegacyConfig (1.4.0.2783) with UID 24ef6216838f9ffc
+Loading component LegacyNetwork.dll
+	Successfully loaded component RakNetLegacyNetwork (1.4.0.2783) with UID ea9799fd79cf8442
+Loading component Menus.dll
+	Successfully loaded component Menus (1.4.0.2783) with UID 621e219eb97ee0b2
+Loading component Objects.dll
+	Successfully loaded component Objects (1.4.0.2783) with UID 59f8415f72da6160
+Loading component Pawn.dll
+	Successfully loaded component Pawn (1.4.0.2783) with UID 78906cd9f19c36a6
+Loading component Pickups.dll
+	Successfully loaded component Pickups (1.4.0.2783) with UID cf304faa363dd971
+Loading component Recordings.dll
+	Successfully loaded component Recordings (1.4.0.2783) with UID 871144d399f5f613
+Loading component TextDraws.dll
+	Successfully loaded component TextDraws (1.4.0.2783) with UID 9b5dc2b1d15c992a
+Loading component TextLabels.dll
+	Successfully loaded component TextLabels (1.4.0.2783) with UID a0c57ea80a009742
+Loading component Timers.dll
+	Successfully loaded component Timers (1.4.0.2783) with UID 2ad8124c5ea257a3
+Loading component Variables.dll
+	Successfully loaded component Variables (1.4.0.2783) with UID 75e121848bc01fa2
+Loading component Vehicles.dll
+	Successfully loaded component Vehicles (1.4.0.2783) with UID 3f1f62ee9e22ab19
+Loaded 20 component(s) from C:\Users\lucas\gpbfreeroam-stable\components
+[08-03-2025T21:58:05-0300] [Info] Legacy Network started on port 7777

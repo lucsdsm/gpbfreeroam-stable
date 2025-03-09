@@ -1,0 +1,61 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+      {
+          "label": "build",
+          "type": "shell",
+          "command": "cmd.exe",
+          "args": [
+              "/c",
+              "${workspaceRoot}\\qawno\\pawncc.exe",
+              "${file}",
+              "-D${fileDirname}",
+              "'-;+'",
+              "'-d3'"
+          ],
+          "group": {
+              "kind": "build"
+          },
+          "isBackground": false,
+          "presentation": {
+              "reveal": "always",
+              "panel": "dedicated"
+          },
+          "problemMatcher": "$pawncc"
+      },
+      {
+          "label": "restart-server",
+          "type": "shell",
+          "command": "cmd.exe",
+          "args": [
+              "/c",
+              "call \"${workspaceRoot}\\restart-server.bat\""
+          ],
+          "problemMatcher": [],
+          "presentation": {
+              "reveal": "always",
+              "panel": "dedicated",
+              "close": false
+          },
+          "options": {
+              "cwd": "${workspaceRoot}"
+          }
+      },
+      {
+          "label": "build-and-restart",
+          "type": "shell",
+          "command": "echo",
+          "args": ["Running build and restart..."],
+          "dependsOn": ["build", "restart-server"],
+          "dependsOrder": "sequence",
+          "group": {
+              "kind": "build",
+              "isDefault": true
+          },
+          "presentation": {
+              "reveal": "always",
+              "panel": "dedicated"
+          }
+      }
+  ]
+}
