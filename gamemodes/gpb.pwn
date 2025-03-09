@@ -31,7 +31,8 @@ main() {}
 enum veiculoEnum {
     bool:motor,
     bool:luzes,
-    bool:placa
+    bool:placa,
+    bool:prefixo
 }
 
 // Variáveis globais:
@@ -59,7 +60,7 @@ new veiculosNomes[212][] =  {"Landstalker", "Bravura", "Buffalo", "Linerunner", 
 	"Picador", "Swat", "Alpha", "Phoenix", "Glenshit", "Sadlshit", "Baggage Trailer (covered)", 
 	"Baggage Trailer (Uncovered)", "Trailer (Stairs)", "Boxburg", "Farm Trailer", "Street Clean Trailer"};
 
-// Funções stock (Não são chamadas caso não sejam usadas):
+// Funções stock (Não são chamadas caso não sejam usadas). Mas aqui está separado para funções que servem para retornar algum valor.
 stock RetornaNomeJogador(playerid) // Devolve o nome do jogador.
 {
     new nome[24];
@@ -77,23 +78,12 @@ stock RetornaIdVeiculo(const nomeVeiculo[]) // Devolve o ID do veículo.
     return -1;
 }
 
-stock EnviaMensagemComAlcance(sourceid, color, const message[], Float:range) {
-    new Float:x, Float:y, Float: z;
-    GetPlayerPos(sourceid, x, y, z);
-    foreach(new ii:Player) {
-        if(GetPlayerVirtualWorld(sourceid) == GetPlayerVirtualWorld(ii)) {
-            if(IsPlayerInRangeOfPoint(ii, range, x, y, z)) {
-                SendClientMessage(ii, color, message);
-            }
-        }
-    }
-}
-
-stock CriaVeiculo(playerid, const idVeiculo, Float:x, Float:y, Float:z, Float:ang, bool:sirene) // Cria um veículo.
+stock VerificaVeiculoSemMotor(vehicleid) 
 {
-    new vehicleid = CreateVehicle(idVeiculo, x, y, z, ang, -1, -1, -1, sirene);
-    PutPlayerInVehicle(playerid, vehicleid, 0);
-    return vehicleid;
+    switch (GetVehicleModel(vehicleid)) {
+        case 509, 510, 481, 606, 607, 610, 584, 611, 608, 435, 591, 590, 569, 570, 449, 450, 537, 538: return 1;
+    }
+    return 0;
 }
 
 // Calbacks nativos:
@@ -101,6 +91,7 @@ public OnGameModeInit()
 {
     SetGameModeText("GPB:F Stable 1.0 "); // Nome do gamemode no launcher.
     SetNameTagDrawDistance(20.0); // Distância de avistamento de nomes dos jogadores.
+    EnableStuntBonusForAll(false); // Desativa o bônus de stunt.
 	SetWorldTime(12); // Hora inicial do servidor.
     return true;
 }
@@ -160,8 +151,24 @@ public OnPlayerStateChange(playerid, PLAYER_STATE:newstate, PLAYER_STATE:oldstat
 
 public OnPlayerKeyStateChange(playerid, KEY:newkeys, KEY:oldkeys) {
     if (IsPlayerInAnyVehicle(playerid)) {
-        if (newkeys == KEY_FIRE) {
-            SetTimerEx("LigaDesligaMotor", 1000, false, "dd", playerid, GetPlayerVehicleID(playerid));
+        new vehicleid = GetPlayerVehicleID(playerid);
+        if (newkeys == KEY_FIRE) // Botão "ALT" ou clique esquerdo do mouse.
+        {
+            if (VerificaVeiculoSemMotor(vehicleid) == 1) {
+				return 1;
+			}
+            else {
+                SetTimerEx("LigaDesligaMotor", 1000, false, "dd", playerid, GetPlayerVehicleID(playerid));
+            }
+        }
+        else if (newkeys == KEY_ANALOG_UP) // Botão 8 do numpad.
+        {
+            if (VerificaVeiculoSemMotor(vehicleid) == 1) {
+                return 1;
+            }
+            else {
+                SetTimerEx("LigaDesligaLuzes", 500, false, "dd", playerid, GetPlayerVehicleID(playerid));
+            }
         }
     }
     return true;
@@ -208,30 +215,91 @@ public MensagemJogadorDesconecta(playerid)
     return 1;
 }
 
+forward EnviaMensagemComAlcance(sourceid, color, const message[], Float:range); // Função para enviar mensagem com alcance.
+public EnviaMensagemComAlcance(sourceid, color, const message[], Float:range) 
+{
+    new Float:x, Float:y, Float: z;
+    GetPlayerPos(sourceid, x, y, z);
+    foreach(new ii:Player) {
+        if(GetPlayerVirtualWorld(sourceid) == GetPlayerVirtualWorld(ii)) {
+            if(IsPlayerInRangeOfPoint(ii, range, x, y, z)) {
+                SendClientMessage(ii, color, message);
+            }
+        }
+    }
+}
+
 forward LigaDesligaMotor(playerid, vehicleid);
 public LigaDesligaMotor(playerid, vehicleid)
 {
     new enginem, lights, alarm, doors, bonnet, boot, objective;
     GetVehicleParamsEx(vehicleid, enginem, lights, alarm, doors, bonnet, boot, objective);
     
-    if (veiculoInfo[vehicleid][motor]) {
+    if (veiculoInfo[vehicleid][motor] == true) {
         veiculoInfo[vehicleid][motor] = false;
         SetVehicleParamsEx(vehicleid, VEHICLE_PARAMS_OFF, lights, alarm, doors, bonnet, boot, objective);
-        format(gpbMensagem, 500, "%s gira as chaves do seu veículo e liga-o.", RetornaNomeJogador(playerid));
+        format(gpbMensagem, 500, "%s gira as chaves do seu veículo e desliga-o.", RetornaNomeJogador(playerid));
         EnviaMensagemComAlcance(playerid, roxo, gpbMensagem, 10);
     }
-    else {
+    else if (veiculoInfo[vehicleid][motor] == false) {
         veiculoInfo[vehicleid][motor] = true;
         SetVehicleParamsEx(vehicleid, VEHICLE_PARAMS_ON, lights, alarm, doors, bonnet, boot, objective);
-        format(gpbMensagem, 500, "%s gira as chaves do seu veículo e desliga-o.", RetornaNomeJogador(playerid));
+        format(gpbMensagem, 500, "%s gira as chaves do seu veículo e liga-o.", RetornaNomeJogador(playerid));
         EnviaMensagemComAlcance(playerid, roxo, gpbMensagem, 10);
     }
     return 1;
 }
 
+forward LigaDesligaLuzes(playerid, vehicleid);
+public LigaDesligaLuzes(playerid, vehicleid)
+{
+    new enginem, lights, alarm, doors, bonnet, boot, objective;
+    GetVehicleParamsEx(vehicleid, enginem, lights, alarm, doors, bonnet, boot, objective);
+    
+    if (veiculoInfo[vehicleid][luzes] == true) {
+        veiculoInfo[vehicleid][luzes] = false;
+        SetVehicleParamsEx(vehicleid, enginem, VEHICLE_PARAMS_OFF, alarm, doors, bonnet, boot, objective);
+        format(gpbMensagem, 500, "%s desliga as luzes do seu veículo.", RetornaNomeJogador(playerid));
+        EnviaMensagemComAlcance(playerid, roxo, gpbMensagem, 10);
+    }
+    else if (veiculoInfo[vehicleid][luzes] == false) {
+        veiculoInfo[vehicleid][luzes] = true;
+        SetVehicleParamsEx(vehicleid, enginem, VEHICLE_PARAMS_ON, alarm, doors, bonnet, boot, objective);
+        format(gpbMensagem, 500, "%s liga as luzes do seu veículo.", RetornaNomeJogador(playerid));
+        EnviaMensagemComAlcance(playerid, roxo, gpbMensagem, 10);
+    }
+    return 1;
+}
+
+forward CriaVeiculo(playerid, const idVeiculo, bool:sirene); // Cria um veículo.
+public CriaVeiculo(playerid, const idVeiculo, bool:sirene)
+{
+    if (IsPlayerInAnyVehicle(playerid)) { // Se o player estiver em um veículo, apaga ele antes.
+        new vehicleid = GetPlayerVehicleID(playerid);
+        DestroyVehicle(vehicleid);
+    }
+
+    new Float:x, Float:y, Float:z, Float:ang;
+
+    GetPlayerPos(playerid, x, y, z);
+    GetPlayerFacingAngle(playerid, ang);
+
+    new vehicleid = CreateVehicle(idVeiculo, x, y, z, ang, -1, -1, -1, sirene);
+    PutPlayerInVehicle(playerid, vehicleid, 0);
+
+    if (VerificaVeiculoSemMotor(vehicleid) == 1) { // Verifica se é um veículo sem motor para iniciá-lo "ligado"
+        veiculoInfo[vehicleid][motor] = true;
+        SetVehicleParamsEx(vehicleid, VEHICLE_PARAMS_ON, 0, 0, 0, 0, 0, 0);
+    }
+
+    // Parâmetros do veículo criado:
+    veiculoInfo[vehicleid][motor] = false;
+    veiculoInfo[vehicleid][luzes] = false;
+    return vehicleid;
+}
 
 // Comandos ZCMD:
-CMD:vc(playerid, params[])
+CMD:vc(playerid, params[]) // Comando para criar veículos.
 {
     new nomeVeiculo[32];
     if(sscanf(params, "s[32]", nomeVeiculo)){ // Se não for passado nenhum parâmetro.
@@ -241,11 +309,28 @@ CMD:vc(playerid, params[])
 
     new idVeiculo = RetornaIdVeiculo(nomeVeiculo);
     if (idVeiculo >= 400 && idVeiculo <= 611) {
-        new Float:x, Float:y, Float:z, Float:ang;
-        GetPlayerPos(playerid, x, y, z);
-        GetPlayerFacingAngle(playerid, ang);
+        CriaVeiculo(playerid, idVeiculo, false);
+    }
 
-        CriaVeiculo(playerid, idVeiculo, x, y, z, ang, false);
+    else {
+        SendClientMessage(playerid, cinza, "Veículo inválido.");
+        return 1;
+    }
+
+    return 1;
+}
+
+CMD:vcs(playerid, params[]) // Comando para criar veículos com sirene.
+{
+    new nomeVeiculo[32];
+    if(sscanf(params, "s[32]", nomeVeiculo)){ // Se não for passado nenhum parâmetro.
+    	SendClientMessage(playerid, cinza, "/vc [Nome do veículo]");
+    	return 1;
+    }
+
+    new idVeiculo = RetornaIdVeiculo(nomeVeiculo);
+    if (idVeiculo >= 400 && idVeiculo <= 611) {
+        CriaVeiculo(playerid, idVeiculo, true);
     }
 
     else {
