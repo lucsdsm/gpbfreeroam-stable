@@ -40,25 +40,25 @@ new gpbMensagem[512]; // Armazenar strings de mensagens.
 
 new veiculoInfo[MAX_VEHICLES][veiculoEnum]; // Array com informações dos veículos.
 
-new veiculosNomes[212][] =  {"Landstalker", "Bravura", "Buffalo", "Linerunner", "Perennial", "Sentinel", "Dumper", "Fire Truck", "Trashmaster", "Stretch", "Manana", 
+new veiculosNomes[212][] =  {"Landstalker", "Bravura", "Buffalo", "Linerunner", "Perennial", "Sentinel", "Dumper", "Firetruck", "Trashmaster", "Stretch", "Manana", 
 	"Infernus", "Voodoo", "Pony", "Mule", "Cheetah", "Ambulance", "Leviathan", "Moonbeam", "Esperanto", "Taxi", "Washington", "Bobcat", 
 	"Mr. Whoopee", "BF Injection", "Hunter", "Premier", "Enforcer", "Securicar", "Banshee", "Predator", "Bus", "Rhino", "Barracks", "Hotknife", 
 	"Trailer 1", "Previon", "Coach", "Cabbie", "Stallion", "Rumpo", "RC Bandit", "Romero", "Packer", "Monster", "Admiral", "Squalo", 
 	"Seasparrow", "Pizzaboy", "Tram", "Trailer 2", "Turismo", "Speeder", "Reefer", "Tropic", "Flatbed", "Yankee", "Caddy", "Solair", 
 	"Topfun", "Skimmer", "PCJ-600", "Faggio", "Freeway", "RC Baron", "RC Raider", "Glendale", "Oceanic", "Sanchez", "Sparrow", "Patriot", 
 	"Quadbike", "Coastguard", "Dinghy", "Hermes", "Sabre", "Rustler", "ZR-350", "Walton", "Regina", "Comet", "BMX", "Burrito", "Camper", "Marquis", 
-	"Baggage", "Dozer", "Maverick", "Vcnmav", "Rancher", "Fbirancher", "Virgo", "Greenwood", "Jetmax", "Hotrina", "Sandking", 
+	"Baggage", "Dozer", "Maverick", "San News", "Rancher", "Fbirancher", "Virgo", "Greenwood", "Jetmax", "Hotrina", "Sandking", 
 	"Blista Compact", "Polmav", "Boxville", "Benson", "Mesa", "RC Goblin", "Hotrinb", "Hotring", "Bloodra", 
 	"Lure", "Super GT", "Elegant", "Journey", "Bike", "Mountain Bike", "Beagle", "Cropduster", "Stuntplane", "Tanker", "Roadtrain", "Nebula", 
 	"Majestic", "Buccaneer", "Shamal", "Hydra", "FCR-900", "NRG-500", "HPV1000", "Cement Truck", "Towtruck", "Fortune", "Cadrona", "Fbitruck", 
 	"Willard", "Forklift", "Tractor", "Combine Harvester", "Feltzer", "Remington", "Slamvan", "Blade", "Freight", "Brown Streak", "Vortex", "Vincent", 
-	"Bullet", "Clover", "Sadler", "Firela", "Hustler", "Intruder", "Primo", "Cargobob", "Tampa", "Sunrise", "Merit", "Utility Van", 
+	"Bullet", "Clover", "Sadler", "Firela", "Hustler", "Intruder", "Primo", "Cargobob", "Tampa", "Sunrise", "Merit", "UtilityVan", 
 	"Nevada", "Yosemite", "Windsor", "Monster 2", "Monster 3", "Uranus", "Jester", "Sultan", "Stratum", "Elegy", "Raindance", "RC Tiger", "Flash", 
 	"Tahoma", "Savanna", "Bandito", "Freight Train Flatbed", "Streak Train Trailer", "Kart", "Mower", "Dune", "Sweeper", "Broadway", "Tornado", 
-	"AT400", "DFT-30", "Huntley", "Stafford", "BF400", "Newsvan", "Tug", "Trailer (Tanker Commando)", "Emperor", "Wayfarer", "Euros", "Hotdog", 
+	"AT400", "DFT-30", "Huntley", "Stafford", "BF400", "Newsvan", "Tug", "Petrol Trailer", "Emperor", "Wayfarer", "Euros", "Hotdog", 
 	"Club", "Box Freight", "Trailer 3", "Andromada", "Dodo", "RC Cam", "Launch", "Police LS", "Police SF", "Police LV", "Police Ranger", 
-	"Picador", "Swat", "Alpha", "Phoenix", "Glenshit", "Sadlshit", "Baggage Trailer (covered)", 
-	"Baggage Trailer (Uncovered)", "Trailer (Stairs)", "Boxburg", "Farm Trailer", "Street Clean Trailer"};
+	"Picador", "Swat", "Alpha", "Phoenix", "Glenshit", "Sadlshit", "BaggageTrailer A", 
+	"Baggage Trailer B", "TugStairs", "Boxburg", "Farm Trailer", "Utility Trailer"};
 
 // Funções stock (Não são chamadas caso não sejam usadas). Mas aqui está separado para funções que servem para retornar algum valor.
 stock RetornaNomeJogador(playerid) // Devolve o nome do jogador.
@@ -107,6 +107,7 @@ public OnPlayerRequestClass(playerid, classid)
 
 public OnPlayerConnect(playerid)
 {
+    VerificaNome(playerid); // Chama função de verificar se o nome do jogador possui [GPB] no início.
     SetPlayerVirtualWorld(playerid, 0); // Define o jogador no mundo virtual 0.
     ShowPlayerMarkers(PLAYER_MARKERS_MODE_OFF); // Desativa os marcadores de jogadores.
     RemovePlayerMapIcon(playerid, -1); // Remove o ícones do jogador no mapa.
@@ -197,6 +198,31 @@ public OnPlayerEnterVehicle(playerid, vehicleid, ispassenger)
 }
 
 // Callbacks customizados:
+
+// Função para kickar o jogador
+forward KickarJogador(playerid);
+public KickarJogador(playerid)
+{
+    Kick(playerid);
+    return 1;
+}
+
+forward VerificaNome(playerid); // Função para verificar se o nome do jogador possui [GPB] no início.
+public VerificaNome(playerid)
+{
+    new nome[MAX_PLAYER_NAME];
+	new gpb[6] = "[GPB]";
+	nome = RetornaNomeJogador(playerid);
+	for (new i = 0; i < 5; i++) { // Verifica sem tem o [GPB] no nome, se não tiver, kicka.
+		if(nome[i] != gpb[i]) {
+			SetTimerEx("KickarJogador", 1000, false, "i", playerid);
+			SendClientMessage(playerid, vermelho, "Você deve usar [GPB] no começo do nome para jogar.");
+			break;
+		}
+	}
+	return 1;
+}
+
 forward MensagemJogadorConecta(playerid); // Função de mostrar quem conectou-se.
 public MensagemJogadorConecta(playerid)
 {
@@ -291,6 +317,10 @@ public CriaVeiculo(playerid, const idVeiculo, bool:sirene)
         veiculoInfo[vehicleid][motor] = true;
         SetVehicleParamsEx(vehicleid, VEHICLE_PARAMS_ON, 0, 0, 0, 0, 0, 0);
     }
+
+    // Mensagem de criação do veículo com seu nome:
+    format(gpbMensagem, 500, "%s criado.", veiculosNomes[idVeiculo - 400]);
+    SendClientMessage(playerid, cinza, gpbMensagem);
 
     // Parâmetros do veículo criado:
     veiculoInfo[vehicleid][motor] = false;
