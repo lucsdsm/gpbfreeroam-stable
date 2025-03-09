@@ -99,7 +99,7 @@
         "main_scripts": [
             "gpb"
         ],
-        "side_scripts": []
+        "side_scripts": ["filterscripts/mapa"]
     },
     "rcon": {
         "allow_teleport": false,
