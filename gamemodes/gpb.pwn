@@ -4,14 +4,12 @@
 */
 
 // Includes:
-
 #include <open.mp>
 #include <zcmd>
 #include <sscanf2>
 #include <foreach>
 
 // Cores:
-
 #define verde 0x9ACD32AA
 #define vermelho 0xFF6347AA
 #define branco 0xFFFFFFAA
@@ -27,12 +25,11 @@
 main() {}
 
 // Enumeradores:
-
 enum veiculoEnum {
     bool:motor,
     bool:luzes,
-    bool:placa,
-    bool:prefixo
+    placa[9],
+    prefixo[6]
 }
 
 // Variáveis globais:
@@ -40,7 +37,8 @@ new gpbMensagem[512]; // Armazenar strings de mensagens.
 
 new veiculoInfo[MAX_VEHICLES][veiculoEnum]; // Array com informações dos veículos.
 
-new veiculosNomes[212][] =  {"Landstalker", "Bravura", "Buffalo", "Linerunner", "Perennial", "Sentinel", "Dumper", "Firetruck", "Trashmaster", "Stretch", "Manana", 
+new veiculosNomes[212][] =  { // Array com os nomes dos veículos.
+    "Landstalker", "Bravura", "Buffalo", "Linerunner", "Perennial", "Sentinel", "Dumper", "Firetruck", "Trashmaster", "Stretch", "Manana", 
 	"Infernus", "Voodoo", "Pony", "Mule", "Cheetah", "Ambulance", "Leviathan", "Moonbeam", "Esperanto", "Taxi", "Washington", "Bobcat", 
 	"Mr. Whoopee", "BF Injection", "Hunter", "Premier", "Enforcer", "Securicar", "Banshee", "Predator", "Bus", "Rhino", "Barracks", "Hotknife", 
 	"Trailer 1", "Previon", "Coach", "Cabbie", "Stallion", "Rumpo", "RC Bandit", "Romero", "Packer", "Monster", "Admiral", "Squalo", 
@@ -58,9 +56,11 @@ new veiculosNomes[212][] =  {"Landstalker", "Bravura", "Buffalo", "Linerunner", 
 	"AT400", "DFT-30", "Huntley", "Stafford", "BF400", "Newsvan", "Tug", "Petrol Trailer", "Emperor", "Wayfarer", "Euros", "Hotdog", 
 	"Club", "Box Freight", "Trailer 3", "Andromada", "Dodo", "RC Cam", "Launch", "Police LS", "Police SF", "Police LV", "Police Ranger", 
 	"Picador", "Swat", "Alpha", "Phoenix", "Glenshit", "Sadlshit", "BaggageTrailer A", 
-	"Baggage Trailer B", "TugStairs", "Boxburg", "Farm Trailer", "Utility Trailer"};
+	"Baggage Trailer B", "TugStairs", "Boxburg", "Farm Trailer", "Utility Trailer"
+};
 
-// Funções stock (Não são chamadas caso não sejam usadas). Mas aqui está separado para funções que servem para retornar algum valor.
+/* Funções stock (Não são chamadas caso não sejam usadas). Mas aqui está separado para funções que servem para retornar algum valor, 
+ou que realmente podem não ser chamadas. */
 stock RetornaNomeJogador(playerid) // Devolve o nome do jogador.
 {
     new nome[24];
@@ -78,7 +78,80 @@ stock RetornaIdVeiculo(const nomeVeiculo[]) // Devolve o ID do veículo.
     return -1;
 }
 
-stock VerificaVeiculoSemMotor(vehicleid) 
+stock GerarPlacaVanilla() // Função para gerar uma placa aleatória no padrão do jogo.
+{
+    new placaVanilla[9] = "01ABC234";
+	placaVanilla[0] = '0' + random(9);
+	placaVanilla[1] = '0' + random(9);
+
+	new letras[27] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+	placaVanilla[2] = letras[random(26)];
+	placaVanilla[3] = letras[random(26)];
+	placaVanilla[4] = letras[random(26)];
+
+	placaVanilla[5] = '0' + random(9);
+	placaVanilla[6] = '0' + random(9);
+	placaVanilla[7] = '0' + random(9);
+	placaVanilla[8] = '\0';
+
+    return placaVanilla;
+}
+
+stock GerarPlacaAmericana() // Função para gerar uma placa aleatória no padrão americano.
+{
+    new placaAmericana[8]; // 7 caracteres + '\0'
+
+    new letras[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
+    // Gera 3 letras
+    placaAmericana[0] = letras[random(26)];
+    placaAmericana[1] = letras[random(26)];
+    placaAmericana[2] = letras[random(26)];
+
+    placaAmericana[3] = '-'; // Separador
+
+    // Gera 4 números
+    placaAmericana[4] = '0' + random(10);
+    placaAmericana[5] = '0' + random(10);
+    placaAmericana[6] = '0' + random(10);
+    placaAmericana[7] = '0' + random(10);
+    placaAmericana[8] = '\0'; // Finaliza a string
+
+    return placaAmericana;
+}
+
+stock GerarPlacaMercosul() // Função para gerar uma placa aleatória no padrão Mercosul.
+{
+    new placaMercosul[8]; // 7 caracteres + '\0'
+
+    new letras[] = "ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+
+    // Gera 3 letras
+    placaMercosul[0] = letras[random(26)];
+    placaMercosul[1] = letras[random(26)];
+    placaMercosul[2] = letras[random(26)];
+
+    // Gera 1 número
+    placaMercosul[3] = '0' + random(10);
+
+    // Gera 1 letra
+    placaMercosul[4] = letras[random(26)];
+
+    // Gera 2 números
+    placaMercosul[5] = '0' + random(10);
+    placaMercosul[6] = '0' + random(10);
+    placaMercosul[7] = '\0'; // Finaliza a string
+
+    return placaMercosul;
+}
+
+stock RetornaPlacaVeiculo(vehicleid) { // Devolve a placa do veículo.
+    new placa[9] = "";
+	strcat(placa, veiculoInfo[vehicleid][placa]);
+	return placa;
+}
+
+stock VerificaVeiculoSemMotor(vehicleid)  // Verifica se o veículo é um veículo sem motor.
 {
     switch (GetVehicleModel(vehicleid)) {
         case 509, 510, 481, 606, 607, 610, 584, 611, 608, 435, 591, 590, 569, 570, 449, 450, 537, 538: return 1;
@@ -255,6 +328,45 @@ public EnviaMensagemComAlcance(sourceid, color, const message[], Float:range)
     }
 }
 
+forward CriaVeiculo(playerid, const idVeiculo, bool:sirene); // Cria um veículo.
+public CriaVeiculo(playerid, const idVeiculo, bool:sirene)
+{
+    if (IsPlayerInAnyVehicle(playerid)) { // Se o player estiver em um veículo, apaga ele antes.
+        new vehicleid = GetPlayerVehicleID(playerid);
+        DestroyVehicle(vehicleid);
+    }
+
+    new Float:x, Float:y, Float:z, Float:ang;
+
+    GetPlayerPos(playerid, x, y, z);
+    GetPlayerFacingAngle(playerid, ang);
+
+    new vehicleid = CreateVehicle(idVeiculo, x, y, z, ang, -1, -1, -1, sirene);
+
+    // Gera uma placa aleatória para o veículo:
+    new placaGerada[9];
+    placaGerada = GerarPlacaVanilla();
+    SetVehicleNumberPlate(vehicleid, placaGerada);
+    veiculoInfo[vehicleid][placa] = placaGerada;
+
+    PutPlayerInVehicle(playerid, vehicleid, 0);
+
+    // Verifica se é um veículo sem motor para iniciá-lo "ligado":
+    if (VerificaVeiculoSemMotor(vehicleid) == 1) {
+        veiculoInfo[vehicleid][motor] = true;
+        SetVehicleParamsEx(vehicleid, VEHICLE_PARAMS_ON, 0, 0, 0, 0, 0, 0);
+    }
+
+    // Mensagem de criação do veículo com seu nome:
+    format(gpbMensagem, 500, "%s criado.", veiculosNomes[idVeiculo - 400]);
+    SendClientMessage(playerid, cinza, gpbMensagem);
+
+    // Parâmetros do veículo criado:
+    veiculoInfo[vehicleid][motor] = false;
+    veiculoInfo[vehicleid][luzes] = false;
+    return vehicleid;
+}
+
 forward LigaDesligaMotor(playerid, vehicleid);
 public LigaDesligaMotor(playerid, vehicleid)
 {
@@ -295,37 +407,6 @@ public LigaDesligaLuzes(playerid, vehicleid)
         EnviaMensagemComAlcance(playerid, roxo, gpbMensagem, 10);
     }
     return 1;
-}
-
-forward CriaVeiculo(playerid, const idVeiculo, bool:sirene); // Cria um veículo.
-public CriaVeiculo(playerid, const idVeiculo, bool:sirene)
-{
-    if (IsPlayerInAnyVehicle(playerid)) { // Se o player estiver em um veículo, apaga ele antes.
-        new vehicleid = GetPlayerVehicleID(playerid);
-        DestroyVehicle(vehicleid);
-    }
-
-    new Float:x, Float:y, Float:z, Float:ang;
-
-    GetPlayerPos(playerid, x, y, z);
-    GetPlayerFacingAngle(playerid, ang);
-
-    new vehicleid = CreateVehicle(idVeiculo, x, y, z, ang, -1, -1, -1, sirene);
-    PutPlayerInVehicle(playerid, vehicleid, 0);
-
-    if (VerificaVeiculoSemMotor(vehicleid) == 1) { // Verifica se é um veículo sem motor para iniciá-lo "ligado"
-        veiculoInfo[vehicleid][motor] = true;
-        SetVehicleParamsEx(vehicleid, VEHICLE_PARAMS_ON, 0, 0, 0, 0, 0, 0);
-    }
-
-    // Mensagem de criação do veículo com seu nome:
-    format(gpbMensagem, 500, "%s criado.", veiculosNomes[idVeiculo - 400]);
-    SendClientMessage(playerid, cinza, gpbMensagem);
-
-    // Parâmetros do veículo criado:
-    veiculoInfo[vehicleid][motor] = false;
-    veiculoInfo[vehicleid][luzes] = false;
-    return vehicleid;
 }
 
 // Comandos ZCMD:
@@ -370,4 +451,3 @@ CMD:vcs(playerid, params[]) // Comando para criar veículos com sirene.
 
     return 1;
 }
-
